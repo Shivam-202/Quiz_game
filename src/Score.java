@@ -23,9 +23,9 @@ public class Score extends JFrame implements ActionListener{
         
        
         JLabel lab2 = new JLabel("Thank You "+ username + " For Playing");
-        lab2.setFont(new Font("VINER HAND ITC",Font.BOLD,35));
+        lab2.setFont(new Font("Railway",Font.BOLD,26));
         lab2.setForeground(Color.RED);
-        lab2.setBounds(50,40,600,35);
+        lab2.setBounds(80,40,600,35);
         add(lab2);
         
         JLabel lab3 = new JLabel("Your Score is " +fscore);
